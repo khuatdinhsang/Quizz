@@ -1,0 +1,82 @@
+.box-login-page {
+    background: linear-gradient(79.88deg, rgba(0, 38, 106, 0.2) 8.77%, rgba(237, 243, 255, 0) 63.82%), linear-gradient(58.67deg, rgba(3, 88, 38, 0.5) 30.79%, #c2fa3880 88.44%), linear-gradient(81.93deg, #121843 10.53%, #09597D 75.13%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    & .box-input {
+        background: #F4F3F3;
+        align-items: center;
+        width: 477px;
+        margin: auto;
+        display: block;
+        border: 2px solid #BDBDBD;
+        border-radius: 10px;
+
+        & .box-form-input {
+            width: 70%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+
+            & .input-field {
+                margin: 12px 0;
+            }
+
+            & .button-login {
+                text-transform: none !important;
+                width: 172px;
+                height: 51px;
+                margin: 35px auto 77px auto;
+                background: #121843 !important;
+                border-radius: 5px;
+                // padding: 12px 33px;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 26px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+
+            &>div {
+                // font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 14px;
+                color: #301B52;
+                margin-top: 4px;
+            }
+        }
+
+        &>p {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 34px;
+            text-align: center;
+            color: #121843;
+            margin: 39px auto 44px auto;
+        }
+    }
+
+    & .box-group-icon {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+
+        &>img {
+            margin: auto;
+        }
+
+        &>div {
+            margin-top: 17px;
+            // font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+}

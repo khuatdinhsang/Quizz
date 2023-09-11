@@ -1,0 +1,28 @@
+.list-test-user {
+    .list-test-user-title {
+        text-align: center;
+        color: #161e54;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .list-test-user-autocompleted {
+        margin-top: 30px;
+    }
+    .list-test-user-table {
+        .ant-table {
+            .ant-table-thead {
+                .ant-table-cell {
+                    background-color: #a5cbe7;
+                    &::before {
+                        background-color: transparent !important;
+                    }
+                }
+            }
+            .ant-table-tbody {
+                .ant-table-cell {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

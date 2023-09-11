@@ -1,0 +1,108 @@
+.exam-result {
+    .exam-result-body {
+        margin: 20px auto 0;
+        h2 {
+            text-align: center;
+            color: #161e54;
+            font-size: 28px;
+            font-weight: 600;
+        }
+        .exam-result-body-general {
+            text-align: center;
+            margin: 50px 0 50px 0;
+            img {
+                width: 45px;
+            }
+        }
+        .exam-result-body-rating {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            .exam-result-body-rating-left,
+            .exam-result-body-rating-right {
+                width: 49%;
+                height: 250px;
+                background: #fff;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.16);
+                padding: 20px;
+                p {
+                    margin-top: 25px;
+                    text-align: center;
+                    color: #333;
+                    font-size: 22px;
+                    font-weight: bold;
+                    &:nth-child(3) {
+                        text-align: left;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .exam-result-body-rating-left {
+                .ant-progress {
+                    width: 80% !important;
+                    margin: 20px 0 0 65px;
+                }
+            }
+            .exam-result-body-rating-right {
+                .exam-result-body-rating-dashboard {
+                    display: flex;
+                    justify-content: space-evenly;
+                    .exam-result-body-rating-dashboard-left,
+                    .exam-result-body-rating-dashboard-right {
+                        p {
+                            font-size: 14px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+        .exam-result-body-details {
+            margin-top: 50px;
+
+            padding: 0 70px 0 70px;
+            .ant-row {
+                margin-bottom: 80px;
+                .ant-col {
+                    color: #333;
+                    font-size: 22px;
+                    font-weight: bold;
+
+                    .ant-btn {
+                        color: #fff;
+                        font-size: 14px;
+                        background-color: #092c4c;
+                    }
+                }
+            }
+            .exam-result-question {
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 8px;
+                border: 1.5px solid;
+                position: relative;
+                .exam-result-question-checked {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                    width: 30px;
+                    height: 30px;
+                }
+                .exam-result-question-choose {
+                    margin-top: 5px;
+                    .ant-radio-group {
+                        p {
+                            .ant-radio-wrapper {
+                                span {
+                                    p {
+                                        margin-bottom: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

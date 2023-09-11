@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "jsx": "react",
+      "module": "commonjs",
+      "outDir": "./build",
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "sourceMap": true,
+      "target": "es6",
+      "lib": ["es6", "dom"],
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "strictNullChecks": true,
+      "skipLibCheck": true,
+      "baseUrl": "./",
+      "paths": {
+        "@components/*": ["src/@core/components/*"],
+        "@assets/*": ["src/@core/assets/*"],
+        "@constants/*": ["src/@core/constants/*"],
+        "@views/*": ["src/views/*"],
+        "@hooks/*": ["src/utility/hooks/*"],
+        "@utils/*": ["src/utility/Utils/*"],
+        "@styles/*": ["src/@core/scss/*"],
+        "@redux/*": ["src/redux/*"],
+        "@layouts/*": ["src/@core/layouts/*"],
+        "@src/*": ["src/*"],
+        "@helpers/*": ["src/@core/helpers/*"],
+        "@actions/*": ["src/redux/actions/*"]
+      }
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  

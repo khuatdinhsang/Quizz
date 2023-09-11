@@ -1,0 +1,32 @@
+.exam-info {
+    .exam-info-body {
+        width: 953px;
+        height: 496px;
+        border-radius: 20px;
+        background-color: #fff;
+        filter: drop-shadow(0px 14px 10px rgba(109, 141, 173, 0.25));
+        margin: 20px auto 0;
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+            color: #5a5a5a;
+        }
+        .exam-info-sub-body {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 70px;
+            .exam-info-sub-body-left {
+                text-align: right;
+                font-weight: bold;
+                width: 40%;
+                color: #5a5a5a;
+            }
+            .exam-info-sub-body-right {
+                text-align: left;
+                width: 40%;
+                color: #5a5a5a;
+            }
+        }
+    }
+}
